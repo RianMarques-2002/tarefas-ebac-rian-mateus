@@ -1,0 +1,57 @@
+Algoritmo RotinaDaManha
+Var
+    despertador: Lógico
+    caféPronto: Lógico
+    computadorLigado: Lógico
+
+Inicio
+    // Passo 1: Acordar
+    escreva("Passo 1: Acordar")
+    despertador <- verdadeiro
+    enquanto (despertador = falso) faça
+        escreva("   Ainda está dormindo")
+    fim enquanto
+    escreva("   Acordei")
+
+    // Passo 2: Jogar Água no Rosto
+    escreva("Passo 2: Jogar Água no Rosto")
+    escreva("   Abra os olhos, levante da cama, calce o chinelo e vá até o banheiro")
+    escreva("   Lave o rosto com água fria para acordar completamente")
+
+    // Passo 3: Escovar os Dentes
+    escreva("Passo 3: Escovar os Dentes")
+    escreva("   Pegue sua escova de dentes e pasta de dente")
+    escreva("   Remover a tampa da pasta de dente")
+    escreva("	Preencha as cerdas da escova de dentes com a pasta de dente")
+    escreva("   Inserir a tampa da pasta de dente e guarda-la novamente")
+    escreva("   Escove os dentes por pelo menos 2 minutos")
+    escreva("   Enxágue a boca e a escova")
+    escreva("   Guarde a escova")
+
+    // Passo 4: Fazer Café
+    escreva("Passo 4: Fazer Café")
+    escreva("   Vá para a cozinha")
+    escreva("   Pegue uma xícara no local indicado no inferior da máquina e coloque a cápsula de café na parte superior da máquina e água na parte anterior da máquina")
+    escreva("   Pressione o botão para que a máquina realize a tarefa e espere a máquina de café fazer o café")
+    caféPronto <- verdadeiro
+    escreva("   O café está pronto")
+
+    // Passo 5: Ligar o Computador
+    escreva("Passo 5: Ligar o Computador")
+    escreva("   Vá até o seu computador")
+    escreva("   Pressione o botão de ligar")
+    escreva("   Espere o computador iniciar")
+    computadorLigado <- verdadeiro
+    escreva("   O computador ligou")
+
+    // Passo 6: Realizar suas atividades no computador
+    escreva("Passo 6: Realizar suas atividades no computador")
+    escreva(          Colocar a xícara de café na mesa e puxar a cadeira")
+    escreva(          Sentar-se, ligar o mouse e abrir o navegador")
+    escreva(          verificar e-mails e abrir o site da EBAC")
+    escreva(          Assistir às vídeo-aulas e realizar anotações")
+    escreva(          Realizar tarefas pendentes e subir no repositório para serem corrigidas")
+
+    // Passo 7: Fim da Rotina Matinal
+    escreva("Passo 7: Fim da Rotina Matinal")
+FimAlgoritmo
